@@ -33,7 +33,7 @@ defmodule LiveReload.FileEvents do
   defp is_hidden?(path) do
     path
     |> Path.basename
-	  |> String.first
+    |> String.first
     |> is_dot?
   end
 
